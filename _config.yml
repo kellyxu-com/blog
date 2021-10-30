@@ -83,7 +83,7 @@ page-mathjax: false
 # Serve Command Options
 #encoding: utf-8 # Set the encoding of files by name (only available for Ruby 1.9 or later). The default value is utf-8
 #timezone: Asia/Shanghai # Set the time zone for site generation. This sets the TZ environment variable, which Ruby uses to handle time and date creation and manipulation.
-port: 1028 # Listen on the given port.
+port: 3333 # Listen on the given port.
 host:  127.0.0.1 # Listen at the given hostname.
 # host:  0.0.0.0 # Listen at the given hostname.
 livereload: false # Reload a page automatically on the browser when its content is edited.
