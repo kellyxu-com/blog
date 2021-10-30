@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Capture Page in Chrome
+title: How to Capture Pages in Chrome
 author: kelly
 tags: [软件使用]
 date: 2021-07-19 02:33:33 +0800
