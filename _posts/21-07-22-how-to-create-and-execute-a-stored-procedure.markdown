@@ -9,8 +9,6 @@ excerpt_separator: <!--more-->
 ---
 
 <!--more-->
-[toc]
-
 # **基于ORACLE数据库存储过程的创建及调用**
 
 大纲：
