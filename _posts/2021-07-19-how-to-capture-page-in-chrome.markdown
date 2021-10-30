@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何在 Google Chrome / Microsoft Edge 中截图
+title: “How to Capture Page in Chrome”
 author: kelly
 tags: [软件使用]
 date: 2021-07-19 02:33:33 +0800
