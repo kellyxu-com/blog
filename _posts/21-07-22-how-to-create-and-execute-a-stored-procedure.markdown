@@ -37,8 +37,6 @@ excerpt_separator: <!--more-->
       * [**3.3.2 调用存储过程**](#332-)
     * [**3.4 带输入参数的存储过程**](#34-)
     * [**3.5 带输出参数的存储过程**](#35-)
-    * [**3.6 JAVA程序调用存储过程**](#36-java)
-      * [**3.7.1 分析jdk API**](#371-jdk-api)
 <!-- /TOC -->
 
 # **基于ORACLE数据库存储过程的创建及调用**
@@ -521,10 +519,3 @@ begin
 
 end;
 ```
-
-测试：D:\Desktop\XJY\Intern & Job\210705 CT Intern\Database\sql学习->student_query_input;student_query_output
-
-### **3.6 JAVA程序调用存储过程**        
-#### **3.7.1 分析jdk API**          
-通过Connection对象的prepareCall方法可调用存储过程
-得出结论：通过Connection对象调用prepareCall方法传递一个转义sql语句调用存储过程，输入参数直接调用set方法传递，输出参数需要注册后，执行存储过程，通过get方法获取，参数列表的下标是从1开始的
