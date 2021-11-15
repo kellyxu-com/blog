@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何在任务条的时间区域上显示秒数
+title: How to Show Seconds on the Taskbar
 author: Kelly
 tags: [Windows, 软件使用]
 date: 2021-11-15 01:33:33 +0800
