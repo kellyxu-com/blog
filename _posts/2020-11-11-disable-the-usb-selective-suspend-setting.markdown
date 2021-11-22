@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Disable the USB Selective Suspend Setting
+title: Disable USB Selective Suspend in Window 10 via Control Panel
 author: kelly
 tags: [Windows, 软件使用]
 date: 2020-11-11 01:33:33 +0800
