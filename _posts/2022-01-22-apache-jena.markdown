@@ -47,7 +47,7 @@ After unzipping the file, we can get several JAVA examples.
 
 [root@localhost Downloads]# source /etc/profile
 ```
-## 运行
+## Run
 ```bash
 [root@localhost jena]# tdb1.xloader --loc /home/kelly/jena/ds triple.xml
 
