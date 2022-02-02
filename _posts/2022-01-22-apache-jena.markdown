@@ -140,7 +140,7 @@ Command jq not found
 ![](/img/jena-fuseki-01.png)  
 
 # Problems & Troubleshooting
-## Problem 1: error exists: <rdf:Description rdf:about="http://www.recshop.fake/cd/Empire Burlesque">. Try replacing the space with "%20".
+### Problem 1: error exists <rdf:Description rdf:about="http://www.recshop.fake/cd/Empire Burlesque"> Try replacing the space with "%20".
 ```bash
 [root@localhost jena]# tdb2.xloader --loc /home/kelly/jena/ds triple.xml
 Command jq not found
@@ -190,7 +190,7 @@ Exception in thread "AsyncParser" org.apache.jena.riot.RiotException: Bad charac
         at org.apache.jena.tdb2.xloader.ProcNodeTableBuilderX.lambda$exec$1(ProcNodeTableBuilderX.java:152)
         at java.base/java.lang.Thread.run(Thread.java:833)
 ```
-## Problem 2：Failed to access <http://192.168.253.129:3030/myds> (192.168.253.129 is the service address for Jena).
+### Problem 2：Failed to access <http://192.168.253.129:3030/myds>(192.168.253.129 is the service address for Jena)
 ```bash
 # Check the firewalld status. Disable Firewalld.
 [root@localhost Downloads]# systemctl status firewalld
