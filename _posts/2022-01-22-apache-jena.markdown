@@ -33,8 +33,7 @@ excerpt_separator: <!--more-->
 ```
 
 # Apache jena
-Jena provides: a JAVA programming API; engine for RDFS; TDB; command-line tools; Fuseki(combined with UI for admin and query)
-After unzipping the file, we can get several JAVA examples.
+Jena provides: a JAVA programming API; engine for RDFS; TDB; command-line tools; Fuseki(combined with UI for admin and query). After unzipping the file, we can get several JAVA examples.
 
 ## Install
 ```bash
