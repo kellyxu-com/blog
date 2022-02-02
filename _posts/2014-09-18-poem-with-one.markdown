@@ -7,7 +7,7 @@ author:     "Kelly"
 header-img: "img/post-bg-2014.jpg"
 catalog: true
 tags:
-    - 诗歌
+    - poem
 ---
 
 一分一秒一春秋  
