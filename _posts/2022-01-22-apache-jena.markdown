@@ -140,7 +140,9 @@ Command jq not found
 ![](/img/jena-fuseki-01.png)  
 
 # Problems & Troubleshooting
-### Problem 1: error exists <rdf:Description rdf:about="http://www.recshop.fake/cd/Empire Burlesque"> Try replacing the space with "%20".
+### Problem 1: error exists
+### <rdf:Description rdf:about="http://www.recshop.fake/cd/Empire Burlesque">
+### Try replacing the space with "%20".
 ```bash
 [root@localhost jena]# tdb2.xloader --loc /home/kelly/jena/ds triple.xml
 Command jq not found
