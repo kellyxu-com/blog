@@ -3,7 +3,7 @@ layout: post
 title: Apache Jena - A free and open source Java framework for building Semantic Web and Linked Data applications.
 author: kelly
 tags: [RDF]
-date: 2022-01-22 01:33:33 +0800
+date: 2022-02-02 01:33:33 +0800
 published: true
 excerpt_separator: <!--more-->
 ---
