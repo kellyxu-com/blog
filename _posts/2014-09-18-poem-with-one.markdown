@@ -4,7 +4,7 @@ title:      "一字诗"
 subtitle:   "写于小六年级开学"
 date:       2014-09-18 1:33:33
 author:     "kelly"
-header-img: "img/IMG_6734.jpeg"
+header-img: "img/IMG_6735.jpeg"
 catalog: true
 tags:
     - poem
