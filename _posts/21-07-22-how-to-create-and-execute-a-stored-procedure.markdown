@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SQL: How to Create and Execute a Stored Procedure"
-author: "Kelly"
+author: "kelly"
 tags: [Database, SQL]
 date: 2021-07-22 17:33:33 +0800
 published: true
@@ -9,12 +9,6 @@ excerpt_separator: <!--more-->
 ---
 
 # **基于ORACLE数据库存储过程的创建及调用**
-
-大纲：
-1. PLSQL编程:HELLO WORLD、程序结构、变量、流程控制、游标
-2. 存储过程：概念、无参存储、有参存储（输入、输出）
-3. JAVA调用存储存储过程
-
 
 ## **1. PLSQL编程**
 ### **1.1 概念和目的**

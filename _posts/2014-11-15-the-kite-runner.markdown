@@ -4,7 +4,7 @@ title:      "读后感：《追风筝的人》"
 subtitle:   ""
 date:       2014-11-15 1:33:33
 author:     "Kelly"
-header-img: "img/post-bg-2014.jpg"
+header-img: "img/IMG_6734.jpeg"
 catalog: true
 tags:
     - 文学
