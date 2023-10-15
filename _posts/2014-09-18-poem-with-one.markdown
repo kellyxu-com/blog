@@ -3,8 +3,8 @@ layout:     post
 title:      "一字诗"
 subtitle:   "写于小六年级开学"
 date:       2014-09-18 1:33:33
-author:     "Kelly"
-header-img: "img/post-bg-2014.jpg"
+author:     "kelly"
+header-img: "img/IMG_6734.jpeg"
 catalog: true
 tags:
     - poem
