@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apache Jena - A free and open source Java framework for building Semantic Web and Linked Data applications
+title: Guide to Setting Up and Using Apache Jena - From RDF Data Preparation to SPARQL Server Configuration
 author: kelly
 tags: [RDF]
 date: 2022-02-02 01:33:33 +0800
@@ -11,29 +11,40 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
-# Prepare RDF data; Save as triple.xml
+# Prepare RDF Data
+Save the data as `triple.xml`.
+
 ```xml
 <?xml version="1.0"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cd="http://www.recshop.fake/cd#">
-<rdf:Description rdf:about="http://www.recshop.fake/cd/Empire Burlesque">
-  <cd:artist>Bob Dylan</cd:artist>
-  <cd:country>USA</cd:country>
-  <cd:company>Columbia</cd:company>
-  <cd:price>10.90</cd:price>
-  <cd:year>1985</cd:year>
-</rdf:Description>
-<rdf:Description rdf:about="http://www.recshop.fake/cd/Hide your heart">
-  <cd:artist>Bonnie Tyler</cd:artist>
-  <cd:country>UK</cd:country>
-  <cd:company>CBS Records</cd:company>
-  <cd:price>9.90</cd:price>
-  <cd:year>1988</cd:year>
-</rdf:Description>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cd="http://www.recshop.fake/cd#">
+    <rdf:Description rdf:about="http://www.recshop.fake/cd/Empire Burlesque">
+        <cd:artist>Bob Dylan</cd:artist>
+        <cd:country>USA</cd:country>
+        <cd:company>Columbia</cd:company>
+        <cd:price>10.90</cd:price>
+        <cd:year>1985</cd:year>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.recshop.fake/cd/Hide your heart">
+        <cd:artist>Bonnie Tyler</cd:artist>
+        <cd:country>UK</cd:country>
+        <cd:company>CBS Records</cd:company>
+        <cd:price>9.90</cd:price>
+        <cd:year>1988</cd:year>
+    </rdf:Description>
 </rdf:RDF>
 ```
 
-# Apache jena
-Jena provides: a JAVA programming API; engine for RDFS; TDB; command-line tools; Fuseki(combined with UI for admin and query). After unzipping the file, we can get several JAVA examples.
+# Apache Jena
+
+Jena offers:
+- A Java programming API
+- An engine for RDFS
+- TDB support
+- Command-line tools
+- Fuseki (bundled with a UI for administration and querying)
+
+After unzipping the file, you'll find several Java examples.
 
 ## Install
 ```bash
